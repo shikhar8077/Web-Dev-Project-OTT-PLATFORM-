@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Wick</title>
+    <link rel="stylesheet" href="johnwick.css">
+    
+</head>
+<body>
+    <header>
+        <video id="johnwick" src="Y2meta.app-John Wick Chapter 4 (2023 Movie) Official Trailer – Keanu Reeves, Donnie Yen, Bill Skarsgård-(1080p).mp4" autoplay loop > </video>
+        <div class="johnwick">
+            <h1 id="titles">John Wick</h1>
+            
+            <p>With the price on his head ever increasing, legendary hit man John Wick takes his fight against the High Table global as he seeks out the most powerful players in the underworld, from New York to Paris to Japan to Berlin.</p>
+               <h3>Action | Suspense | Thriller</h3>
+               <button id="johnwick"onclick="toggleMute()">Mute/Unmute</button>
+               </div>
+               <div id="Actors">
+                <h1>
+                  Actors </h1>
+                  <section class="horror-boxes">
+                    <div class="horror-box" id="nun"></div>
+                    <div class="horror-box" id="anabelle"></div>
+                    <div class="horror-box" id="evildead"></div>
+                    <div class="horror-box" id="conjuring"></div>
+                    <div class="horror-box" id="it"></div>
+                    <div class="horror-box" id="here"></div>
+                    </section>
+                    <div id="keanu"><h2>Keanu Reaves</h2></div>
+                    <div id="Bill"><h2>Bill Skarsgård</h2></div>
+                 
+                    <div id="Bill"><h2>Donnie Yen</h2></div>
+                    <div id="Bill"><h2>Hiroyuki Sanada</h2></div>
+                    <div id="Ian"><h2>Ian McShane</h2></div>
+                    <div id="Lance"><h2>Lance Reddick</h2></div>
+               </div>
+               <br>
+               <br>
+               <a href="videoplayer.html" class="watch-now-button"><h2>Watch Now</h2></a>
+               <br>
+               <br>
+               <hr>
+               <div><h3>Related Movies</h3></div>
+               <section class="horror-boxes">
+                <div class="horror-box" id="joh"></div>
+                <div class="horror-box" id="wi"></div>
+                <div class="horror-box" id="ck"></div>
+                </section>
+
+              
+     </header>
+    
+  
+<script>
+  var video = document.getElementById("johnwick");
+
+function toggleMute() {
+  if (video.muted) {
+    video.muted = false;
+    // Change button text to indicate unmuted state
+    document.querySelector("button").innerText = "Mute";
+  } else {
+    video.muted = true;
+    // Change button text to indicate muted state
+    document.querySelector("button").innerText = "Unmute";
+  }
+}
+</script>
+
+
+</body>
+</html>

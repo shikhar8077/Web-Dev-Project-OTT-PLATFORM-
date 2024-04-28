@@ -1,0 +1,120 @@
+
+body{
+    background-color: black;
+    color: white;
+}
+.header{
+    width: auto;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(pxfuel.jpg);
+   
+  
+    background-position: center;
+    padding: px 8%;
+    position:relative ;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background:#1845AD;
+    background: #23a2f6;
+    color:dark gray;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left:10px ;
+    cursor: pointer;
+}
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    text-align: center;
+    margin-top: 100px;
+
+}
+.email-signup{
+    background-color: white;
+    border-radius: 4px ;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+
+
+}
+.email-signup input{
+    flex: 1;
+    border: 0;
+    outline:0;
+    margin-left: 20px;
+}
+.email-signup button{
+    background: #1845AD;
+    background: #23a2f6;
+    border: 0;
+    outline: 0;
+    color:white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+hr{
+    width: 100%;
+    background-color: darkgray;
+}
+
+.text-col{
+    margin-left: 300px;
+}
+.features{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+#first{
+    width: 100%;
+}
+#img{
+    margin: 10px;
+}
+.footer{
+    color:white;
+
+}
+.faq{
+    margin: 20px;
+    color: gray;
+}
+.help{
+    margin: 50px;
+    color: gray;
+}
+.terms{
+    color: gray;
+}
+.cookie{
+    margin: 50px;
+    color: gray;
+}
+.privacy{
+    margin: 20px ;
+    
+    color: gray;
+}
+#first{
+    height: 20px;
+
+}

@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black
+}
+
+nav {
+    background-color: black;
+   
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+
+nav ul li {
+    display: inline;
+
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a.active {
+    background-color: #37CAEC;
+    color: white;
+    border-radius: 8px;
+}
+h2{
+    color: white;
+    font: Helvetica;
+    padding: 20px;
+    
+}
+.sports-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sports-box {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-color:#ccc; 
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+    
+  
+}
+
+.sports-box:hover{
+    transform: scale(1.1);
+    border: 2px solid #37CAEC;
+    
+
+}
+#ind{
+    background-image: url('ind\ vs\ aus.jpg');
+    background-size: cover;
+}
+#ipl{
+    background-image: url('rcbvsmi.jpg');
+    background-size: cover;
+}
+#worldcup{
+    background-image: url('ENG-vs-AUS-Head-to-Head.jpeg');
+    background-size: cover;
+}
+#newzleand{
+    background-image: url('211434-live-india-vs-new-zealand-t20-hardik-pandya-kane-williamson-sky-stadium-wellington.jpg');
+    background-size: cover;
+}
+
+#aus{
+    background-image: url('jumbmdo5fe6nghsbfo5d.jpg');
+    background-size: cover;
+}
+#sa{
+    background-image: url('maxresdefault.jpg');
+    background-size: cover;
+}
+.race-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.race-box {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-color:#ccc; 
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+    
+  
+}
+
+.race-box:hover{
+    transform: scale(1.1);
+    border: 2px solid #37CAEC;
+    
+
+}
+#us{
+    background-image: url('maxresdefault\ \(1\).jpg');
+    background-size: cover;
+}
+#abu{
+    background-image: url('abu.jpg');
+    background-size: cover;
+}
+
+#high{
+    background-image: url('image\ \(1\).jpg');
+    background-size: cover;
+}
+#f1{
+    background-image: url('maxresdefault\ \(2\).jpg');
+    background-size: cover;
+}
+#sky{
+    background-image: url('skysports-f1-saudi_6485215.jpg');
+    background-size: cover;
+}
+#neth{
+    background-image: url('maxresdefault\ \(3\).jpg');
+    background-size: cover;
+}
+
+#u{
+    background-image: url('maxresdefault\ \(4\).jpg');
+    background-size: cover;
+}
+#f{
+    background-image: url('maxresdefault\ \(5\).jpg');
+    background-size: cover;
+}
+
+#c{
+    background-image: url('hq720.jpg');
+    background-size: cover;
+}
+
+#fig{
+    background-image: url('magn.jpg');
+    background-size: cover;
+}
+#h{
+    background-image: url('maxresdefault\ \(6\).jpg');
+    background-size: cover;
+}
+#t{
+    background-image:url('hq720\ \(1\).jpg');
+    background-size: cover;
+}
+#p{
+    background-image: url('maxresdefault\ \(8\).jpg');
+    background-size: cover;
+}
+#r{
+    background-image: url('maxresdefault\ \(7\).jpg');
+    background-size: cover;
+}
+
+#o{
+    background-image: url('kab.jpg');
+    background-size: cover;
+}
+#k{
+    background-image: url('maxresdefault\ \(9\).jpg');
+    background-size: cover;
+}
+#a{
+    background-image: url('109-Preview-PKL-2023-24-16-copy-1.jpg.webp');
+    background-size: cover;
+}
+#b{
+    background-image: url('111-Preview-PKL-2023-24-16-copy.jpg.webp');
+    background-size: cover;
+}
+#pre{
+    background-image: url('maxresdefault\ \(10\).jpg');
+    background-size: cover;
+}
+#m{
+    background-image: url('skysports-fulham-liverpool_6529134.jpg');
+    background-size: cover;
+}
+
+#i{
+    background-image: url('skysports-manchester-united_6112296.jpg');
+    background-size: cover;
+}
+
+#e{
+    background-image: url('hq720\ \(2\).jpg');
+    background-size: cover;
+}
+#rlea{
+    background-image: url('skysports-liverpool-arsenal_6116418.jpg');
+    background-size: cover;
+}
+#g{
+    background-image: url('hq720\ \(3\).jpg');
+    background-size: cover;
+}
+
+
+
+
+
+
+

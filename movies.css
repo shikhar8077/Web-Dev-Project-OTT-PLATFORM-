@@ -1,0 +1,227 @@
+@font-face {
+    font-family: Neue;
+    src: url(HelveticaNeueMedium.ttf);
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black
+}
+
+nav {
+    background-color: black;
+   
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+
+nav ul li {
+    display: inline;
+
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a.active {
+    background-color: #37CAEC;
+    color: white;
+    border-radius: 8px;
+}
+
+h2{
+    color: white;
+    padding: 20px;
+    font-family: 'Neue';
+    
+}
+.action-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.action-box {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    background-color:#ccc; 
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+    transition: border 0.3s ease-in-out;
+}
+.action-box:hover{
+    transform: scale(1.1);
+    border: 2px solid #37CAEC;
+}
+p{
+    font-family: 'Neue';
+    text-align: right;
+}
+a{
+   color: white;
+}
+#war{
+background-image: url('war.jpg');
+background-size: cover;
+}
+#salaar{
+    background-image: url('desktop-wallpaper-actor-prabhas-salaar-movie-first-look-poster-prabhas-salaar.jpg');
+    background-size: cover;
+}
+#bahubaali{
+    background-image: url('baahubali.jpg');
+    background-size: cover;
+}
+#johnwick{
+    background-image: url('jw4-2025x3000-online-character-1sht-keanu-v187-1675886090936.jpg');
+    background-size: cover;
+}
+#fast{
+    background-image: url('fast.jpg');
+    background-size: cover;
+}
+#dhoom{
+    background-image: url('image.jpg');
+    background-size: cover;
+}
+.romantic-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.romantic-box {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    background-color:#ccc; 
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+}
+.romantic-box:hover{
+    transform: scale(1.1);
+    border: 2px solid #37CAEC;
+}
+#shiddat{
+    background-image: url('shiddat.jpg');
+    background-size: cover;
+}
+#me{
+    background-image: url('me.jpg');
+    background-size: cover;
+}
+#stars{
+    background-image: url('stars.jpg');
+    background-size: cover;
+}
+#jhooti{
+    background-image: url('jhooti.jpg');
+    background-size: cover;
+}
+#titanic{
+    background-image: url('titanic.jpg');
+    background-size: cover;
+}
+#la{
+    background-image: url('La_La_Land.webp');
+    background-size: cover;
+}
+.horror-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.horror-box {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    background-color:#ccc; 
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+}
+.horror-box:hover{
+    transform: scale(1.1);
+    border: 2px solid #37CAEC;
+}
+#nun{
+    background-image: url('nun.jpg');
+    background-size: cover;
+}
+#it{
+    background-image: url('it.jpg');
+    background-size: cover;
+}
+
+#anabelle{
+    background-image: url('medium-hollywood-movie-wall-poster-annabelle-creation-hd-quality-original-imafayz4ch2zfvbf.webp');
+    background-size: cover;
+}
+#here{
+    background-image: url('here.jpg');
+    background-size: cover;
+}
+#evildead{
+    background-image: url('evil-dead-rise-poster.width-800.jpg');
+    background-size: cover;
+}
+#conjuring{
+    background-image: url('conjuring.jpg');
+    background-size: cover;
+}
+.sci-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.sci-box {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    background-color:#ccc; 
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+}
+.sci-box:hover{
+    transform: scale(1.1);
+    border: 2px solid #37CAEC;
+}
+#blade{
+    background-image: url('blade.jpg');
+    background-size: cover;
+}
+#avatar{
+    background-image: url('avatar.jpg');
+    background-size: cover;
+}
+#tommorow{
+    background-image: url('tommorow.jpg');
+    background-size: cover;
+}
+#arrival{
+    background-image: url('arrival.jpg');
+    background-size: cover;
+}
+#inception{
+    background-image: url('medium-inception-movie-hd-matte-finish-poster-butcutnw9954-original-imagdhw4azeedhbz.webp');
+    background-size: cover;
+}
+#two{
+    background-image: url('2067.jpg');
+    background-size: cover;
+}

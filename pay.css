@@ -1,0 +1,43 @@
+.pay-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+ 
+    padding: 20px;
+        margin: 10px;
+        border-radius: 5px;
+        border: 1px solid black;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+}
+.box:active{
+    background-color: #37caec;
+    color: white;
+ 
+}
+.box:hover{
+    background-color: #37caec;
+}
+.box1{
+    
+    padding: 20px;
+        margin: 10px;
+        border-radius: 5px;
+        border: 1px solid black;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+}
+.box1:active{
+    background-color: #37caec;
+    color: white;
+}
+.box1:hover{
+    background-color: #37caec;
+}

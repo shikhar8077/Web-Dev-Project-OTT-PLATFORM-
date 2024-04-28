@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black
+}
+
+nav {
+    background-color: black;
+   
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+
+nav ul li {
+    display: inline;
+
+}
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a.active {
+    background-color: #37CAEC;
+    color: white;
+    border-radius: 8px;
+}
+.romantic-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.romantic-box {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    background-color:#ccc; 
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+}
+.romantic-box:hover{
+    transform: scale(1.1);
+    border: 2px solid #37CAEC;
+}
+h2{
+    color: white;
+    font: Helvetica;
+    padding: 20px;
+}
+#shiddat{
+    background-image: url('show1.jpg');
+    background-size: cover;
+}
+#me{
+    background-image: url('anup.jpg');
+    background-size: cover;
+}
+#titanic{
+    background-image: url('rishta.jpg');
+    background-size: cover;
+}
+#jhooti{
+    background-image: url('kulfi.jpg');
+    background-size: cover;
+}
+#stars{
+    background-image: url('Collage_\(15\).jpg');
+    background-size: cover;
+}
+#la{
+    background-image: url('haseena.jpg');
+    background-size: cover;
+}
+#starplus{
+    background-image: url('the-kapil-sharma-show.jpg');
+    background-size: cover;
+    
+    
+    
+}
+#colors{
+    background-image: url('vijayendra_kumeria_to_feature_in_teri_meri_doriyaann-three_four.jpg');
+    background-size: cover;
+}
+#sony{
+    background-image: url('ishq.jpg');
+    background-size: cover;
+}
+#starbharat{
+    background-image: url('jhnak.jpg');
+    background-size: cover;
+}
+#starbangla{
+    background-image: url('tarak.jpg');
+    background-size: cover;
+}
+#stargujrat{
+    background-image: url('dance-plus-pro.jpg');
+    background-size: cover;
+}
+#ad{
+    background-image: url('ad.jpg');
+    background-size: cover;
+}
+#runw{
+    background-image: url('runw.jpg');
+    background-size: cover;
+}
+#born{
+    background-image: url('born-in-africa.jpg');
+    background-size: cover;
+}
+#science{
+    background-image: url('science.jpg');
+    background-size: cover;
+}
+#host{
+    background-image: url('hostile.jpg');
+    background-size: cover;
+}
+#india{
+    background-image: url('india1.jpg');
+    background-size: cover;
+}
+
+

@@ -1,0 +1,328 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black
+}
+
+nav {
+    background-color: black;
+   
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+
+nav ul li {
+    display: inline;
+
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a.active {
+    background-color: #37CAEC;
+    color: white;
+    border-radius: 8px;
+}
+
+.movie-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.movie-box {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    background-color:#ccc; 
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+ 
+    
+  
+}
+
+.movie-box:hover{
+    transform: scale(1.1);
+    border: 2px solid #37CAEC;
+    
+    
+}
+
+
+#Wakanda {
+    background-image: url('pp_disney_blackpanther_wakandaforever_1289_d3419b8f.jpeg');
+  
+    background-size: cover;
+  }
+
+#John{
+    background-image: url('jw4-2025x3000-online-character-1sht-keanu-v187-1675886090936.jpg');
+    background-size: cover;
+}
+
+#Thor {
+    background-image: url('thorraganarok.jpg');
+    background-size: cover;
+}
+#Fightclub{
+    background-image: url('MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg');
+    background-size: cover;
+}
+#Endgame{
+    background-image: url('endgame.jpg');
+    background-size: cover;
+}
+#Captain{
+    background-image: url('civilwar.jpg');
+    background-size: cover;
+}
+hr{
+    height:2px;
+    background-color: #37CAEC;
+}
+
+h2{
+    color: white;
+    font: Helvetica;
+    padding: 20px;
+}
+#Baahubali{
+    background-image: url('baahubali.jpg');
+    background-size: cover;
+    display: inline;
+}
+.sport-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.sport-box {
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+    background-color:#ccc; 
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+ border-radius: 5px;
+}
+#Cricket{
+    background-image:url('ind-aus-2nd-odi-highlights-1695570906.jpg');
+    background-size:cover;
+     
+}
+.sport-box:hover{
+    transform: scale(1.1);
+    border: 2px solid #37CAEC;
+}
+#F1{
+    background-image: url('f1.jpg');
+    background-size: contain;
+    
+}
+#UFC{
+    background-image: url('ufc.jpg');
+    background-size: contain;
+}
+#Football{
+    background-image: url('premierleague-social-image-2023-1200x628-01.avif');
+    background-size: cover;
+}
+#Lawn{
+    background-image: url('WimbledonChampionships.jpg');
+    background-size: cover;
+}
+.series-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.series-box {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    background-color:#ccc; 
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+ border-radius: 5px;
+}
+.series-box:hover{
+    transform: scale(1.1);
+    border: 2px solid #37CAEC;
+    
+    
+}
+
+#Peakyblinders{
+   background-image: url('PeakyBlinders-Season2-GillianMurphy-NetflixTVShow-ArtPoster_b673c338-969e-4396-876e-e87f8b0e63b7.jpg');
+   background-size: cover;
+}
+#Witcher{
+    background-image: url('witcher.jpg');
+    background-size: cover;
+}
+#BreakingBad{
+    background-size: cover;
+    background-image: url('BreakingBad-BryanCranston-Heisenberg-TVShowPoster9.jpg');
+}
+#Whatif{
+    background-image: url('MV5BYmZmMWJiODMtNDcyOC00NDMwLWIwNmQtZGYzYzgwZjJkMTM1XkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_.jpg');
+    background-size: cover;
+}
+#TheBoys{
+     background-image: url('boys.jpg');
+     background-size: cover;
+}
+#Daredevil{
+    background-image: url('Daredevil-Born-Again-Poster.avif');
+    background-size: cover;
+}
+.kids-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.kids-box {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    background-color:#ccc; 
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+}
+.kids-box:hover{
+    transform: scale(1.1);
+    border: 2px solid #37CAEC;
+    
+    
+}
+#Turningred{
+    background-image: url('tur.jpg');
+    background-size: cover;
+}
+#baymax{
+    background-image: url('big-hero-six-02_612x857-099b1b62ec384e87bdbbff902ac5a733.jpg');
+    background-size: cover;
+}
+#Soul{
+    background-image: url('soul.jpg');
+    background-size: cover;
+}
+#Luca{
+    background-image: url('luca.jpg');
+    background-size: cover;
+}
+#bolt{
+    background-image: url('bolt.jpg');
+    background-size: cover;
+}
+#Frozen{
+    background-image: url('frozen.jpg');
+    background-size: cover;
+}
+.shows-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.shows-box {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    background-color:#ccc; 
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+}
+.shows-box:hover{
+    transform: scale(1.1);
+    border: 2px solid #37CAEC;
+}
+#kbc{
+    background-image: url('kbc.webp');
+    background-size: cover;
+}
+#bigboss{
+    background-image: url('bigboss.jpg');
+    background-size: cover;
+}
+#dance{
+    background-image: url('dance-plus-pro.jpg');
+    background-size: cover;
+}
+#kapil{
+    background-image: url('the-kapil-sharma-show.jpg');
+    background-size: cover;
+}
+
+#indianidol{
+    background-image: url('ii12-banner1_new.jpg');
+    background-size: cover;
+}
+#Sharktank{
+    background-image: url('shasrk.jpg');
+    background-size: contain;
+}
+.drama-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.drama-box {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    background-color:#ccc; 
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+}
+.drama-box:hover{
+    transform: scale(1.1);
+    border: 2px solid #37CAEC;
+}
+#tarak{
+    background-image: url('tarak.jpg');
+    background-size: cover;
+}
+#ishq{
+    background-image: url('ishq.jpg');
+    background-size: cover;
+}
+#rishta{
+    background-image: url('show.webp');
+    background-size: cover;
+}
+#anup{
+    background-image: url('anup.jpg');
+    background-size: cover;
+}
+#Impli{
+    background-image: url('rishta.jpg');
+    background-size: cover;
+}
+#teri{
+    background-image: url('vijayendra_kumeria_to_feature_in_teri_meri_doriyaann-three_four.jpg');
+    background-size: cover;
+}
